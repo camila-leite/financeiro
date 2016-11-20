@@ -1,13 +1,13 @@
 <?php
 //Dados do SGBD
 //server
-$servidor = 'localhost';
+$servidor = 'HOST';
 //user
-$usuario = 'root';
+$usuario = 'USER';
 //pass
-$senha = 'CoelhO10TIgre22@&';
+$senha = 'SENHA';
 //database
-$banco = 'financeiro';
+$banco = 'DB';
 // Conecta-se ao banco de dados MySQL
 // var mysqli = objeto criado para estabelecer socket com o SGDB
 $mysqli = new mysqli($servidor, $usuario, $senha, $banco);
